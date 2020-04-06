@@ -17,7 +17,7 @@ class Model:
     def backward_pass(self,x,y_true,y_hat):
         m = y_hat.shape[0]
         db = np.sum(y_hat-y_true)/m
-        dW = np.sum(np.dot(np.transpose(y_hat - y_true), X), axis=0)/m
+        dW = np.sum(np.dot(np.transpose(y_hat - y_true), x), axis=0)/m
         return db,dW
     
     def update_params(self,dW,db,lr):
