@@ -38,7 +38,7 @@ But the **Gadient Descent Algorithm** is way more efficient.
 
 Gradient descent determines the **Step Size** by multiplying the parameter by a small number called the **learning rate**.
 With the step size we update/calculate the new parameters.
-##### New Parameter = Old Parameter. - Step Size 
+##### New Parameter = Old Parameter - Step Size 
 
 We set a number  a small one under which if the step size falls Gradient descent should stop and also we put a limit on number of stpes it will take before giving up.
 
